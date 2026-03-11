@@ -3,9 +3,11 @@ def list_shift(datos: float, number: float):
     for i in range(len(datos)):
         datos[i] = datos[i] + number 
 def calc_avg(datos):
+    """Hallar el promedio de la lista de flotantes"""
     promedio = sum(datos)/len(datos)
     return promedio
 def print_normalized(datos):
+    """Imprimir la lista de flotantes"""
     return print(datos)
 
 datos = [2.0, 4.0, 6.0, 8.0]
