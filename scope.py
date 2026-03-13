@@ -1,6 +1,6 @@
 int_value = None
 str_value = None
-def set_globals(some_int, some_str):
+def set_globals(some_int = None, some_str = None):
     global int_value
     int_value = int(some_int)
     global str_value
