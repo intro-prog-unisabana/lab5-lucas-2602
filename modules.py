@@ -14,7 +14,7 @@ def piso_logaritmo():
     print(f"Floor: {piso}")
 def techo_logaritmo():
     techo = math.ceil(log)
-    print(f"Floor: {techo}")
+    print(f"Ceiling: {techo}")
 directorio()
 logaritmo()
 piso_logaritmo()
