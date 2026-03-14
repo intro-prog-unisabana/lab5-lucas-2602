@@ -4,11 +4,27 @@ while True:
     if entrada == "add":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
+        if num1.is_integer():
+            num1 = int(num1)
+        else:
+            num1 = num1
+        if num2.is_integer():
+            num2 = int(num2)
+        else:
+            num2 = num2
         add(num1, num2)
         continue
     elif entrada == "subtract":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
+        if num1.is_integer():
+            num1 = int(num1)
+        else:
+            num1 = num1
+        if num2.is_integer():
+            num2 = int(num2)
+        else:
+            num2 = num2
         sub(num1, num2)
         continue
     elif entrada == "multiply":
@@ -19,6 +35,14 @@ while True:
     elif entrada == "divide":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
+        if num1.is_integer():
+            num1 = int(num1)
+        else:
+            num1 = num1
+        if num2.is_integer():
+            num2 = int(num2)
+        else:
+            num2 = num2
         divide(num1, num2)
         continue
     elif entrada == "exponent":

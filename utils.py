@@ -48,11 +48,19 @@ if __name__ == "__main__":
 from math import pow, fmod, floor, fabs
 
 def add(num1, num2):
-    suma = num1 + num2
-    return print(suma)
+    if isinstance(num1, int) and (num2, int):
+        suma = num1 + num2
+        return print(int(suma))
+    else:
+        suma = num1 + num2
+        return print(float(suma))
 def sub(num1, num2):
-    resta = num1 - num2
-    return print(resta)
+    if isinstance(num1, int) and (num2, int):
+        resta = num1 - num2
+        return print(int(resta))
+    else:
+        resta = num1 - num2
+        return print(float(resta))
 if __name__ == "__main__":
     add(3, 5)      # 8 (resultado entero)
     add(3.5, 5)     # 8.5 (resultado decimal)
@@ -60,8 +68,12 @@ if __name__ == "__main__":
     sub(10.0, 4.5)  # 5.5 (resultado decimal)
 
 def multiply(num1, num2):
-    multiplicación = num1 * num2
-    return print(multiplicación)
+    if isinstance(num1, int) and isinstance(num2, int):
+        multiplicación = num1 * num2
+        return print(int(multiplicación))
+    else:
+        multiplicación = num1 * num2
+        return print(multiplicación)
 def divide(num1, num2):
     if num2 != 0:
         división = num1 / num2
@@ -128,3 +140,4 @@ if __name__ == "__main__":
     floor_divide(5, 0)    # "Error: Division by zero is not allowed." (resultado cadena de texto)
     absolute(-5)          # 5 (resultado entero)
     absolute(-5.5)        # 5.5 (resultado decimal)
+
