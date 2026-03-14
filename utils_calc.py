@@ -3,12 +3,10 @@ from math import pow, fmod, floor, fabs
 def add(num1, num2):
     if isinstance(num1, int) and (num2, int):
         suma = num1 + num2
-        rst = print(f"The result is: {int(suma)}")
-        return rst
+        return int(suma)
     else:
         suma = num1 + num2
-        rst = print(f"The result is: {float(suma)}")
-        return rst
+        return float(suma)
 def sub(num1, num2):
     if isinstance(num1, int) and (num2, int):
         resta = num1 - num2
