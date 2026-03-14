@@ -4,8 +4,7 @@ while True:
     if entrada == "add":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
-        res = add(num1, num2)
-        print(f"The result is: {res}")
+        add(num1, num2)
         continue
     elif entrada == "subtract":
         num1 = float(input("Enter the first number: "))
