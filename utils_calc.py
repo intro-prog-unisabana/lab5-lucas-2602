@@ -32,7 +32,7 @@ def divide(num1, num2):
         división = num1 / num2
         return división
     else:
-        división = print("Error: Division by zero is not allowed.")
+        división = "Error: Division by zero is not allowed."
         return división
 if __name__ == "__main__":
     multiply(3, 4)    # 12 (resultado entero)
@@ -54,13 +54,13 @@ def modulo(num1, num2):
             residuo = int(fmod(num1, num2))
             return residuo
         else:
-            return print("Error: Modulo by zero is not allowed.")
+            return "Error: Modulo by zero is not allowed."
     else:
         if num2 != 0:
             residuo = fmod(num1, num2)
             return residuo
         else:
-            return print("Error: Modulo by zero is not allowed.")
+            return "Error: Modulo by zero is not allowed."
 if __name__ == "__main__":
     exponent(2, 3)    # 8 (resultado entero)
     exponent(2.0, 3)  # 8.0 (resultado decimal)
@@ -73,20 +73,20 @@ def floor_divide(num1, num2):
         if isinstance(num1, int) and isinstance(num2, int):
             dividir = num1/num2
             entero_mas_grande = floor(dividir)
-            return print(entero_mas_grande)
+            return entero_mas_grande
         else:
             dividir = num1/num2
             entero_mas_grande = floor(dividir)
-            return print(float(entero_mas_grande))
+            return float(entero_mas_grande)
     else:
-        return print("Error: Division by zero is not allowed.")
+        return "Error: Division by zero is not allowed."
 def absolute(num):
     if isinstance(num, int):
         valor_absoluto = fabs(num)
-        return print(int(valor_absoluto))
+        return int(valor_absoluto)
     else:
         valor_absoluto = fabs(num)
-        return print(valor_absoluto)
+        return valor_absoluto
 if __name__ == "__main__":
     floor_divide(10, 3)   # 3 (resultado entero)
     floor_divide(10.5, 3) # 3.0 (resultado decimal)
