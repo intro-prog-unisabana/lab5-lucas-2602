@@ -1,17 +1,9 @@
-from utils import add, sub, multiply, divide, exponent, modulo, floor_divide, absolute
+from utils_calc import add, sub, multiply, divide, exponent, modulo, floor_divide, absolute
 while True:
     entrada = input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute, exit):\n")
     if entrada == "add":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
-        if num1.is_integer():
-            num1 = int(num1)
-        else:
-            num1 = num1
-        if num2.is_integer():
-            num2 = int(num2)
-        else:
-            num2 = num2
         add(num1, num2)
         continue
     elif entrada == "subtract":
