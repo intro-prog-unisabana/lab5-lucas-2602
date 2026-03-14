@@ -10,10 +10,10 @@ def add(num1, num2):
 def sub(num1, num2):
     if isinstance(num1, int) and (num2, int):
         resta = num1 - num2
-        return print(int(resta))
+        return int(resta)
     else:
         resta = num1 - num2
-        return print(float(resta))
+        return float(resta)
 if __name__ == "__main__":
     add(3, 5)      # 8 (resultado entero)
     add(3.5, 5)     # 8.5 (resultado decimal)
@@ -23,14 +23,14 @@ if __name__ == "__main__":
 def multiply(num1, num2):
     if isinstance(num1, int) and isinstance(num2, int):
         multiplicación = num1 * num2
-        return print(int(multiplicación))
+        return int(multiplicación)
     else:
         multiplicación = num1 * num2
-        return print(multiplicación)
+        return multiplicación
 def divide(num1, num2):
     if num2 != 0:
         división = num1 / num2
-        return print(división)
+        return división
     else:
         división = print("Error: Division by zero is not allowed.")
         return división
@@ -44,21 +44,21 @@ if __name__ == "__main__":
 def exponent(base, exp):
     if isinstance(base, int) and isinstance(exp, int):
         exponenciación = pow(base, exp)
-        return print(int(exponenciación))
+        return int(exponenciación)
     else:
         exponenciación = pow(base, exp)
-        return print(exponenciación)
+        return exponenciación
 def modulo(num1, num2):
     if isinstance(num1, int) and isinstance(num2, int):
         if num2 != 0:
             residuo = int(fmod(num1, num2))
-            return print(residuo)
+            return residuo
         else:
             return print("Error: Modulo by zero is not allowed.")
     else:
         if num2 != 0:
             residuo = fmod(num1, num2)
-            return print(residuo)
+            return residuo
         else:
             return print("Error: Modulo by zero is not allowed.")
 if __name__ == "__main__":

@@ -10,36 +10,43 @@ while True:
     elif entrada == "subtract":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
-        sub(num1, num2)
+        res = sub(num1, num2)
+        print(f"The result is: {res}")
         continue
     elif entrada == "multiply":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
-        multiply(num1, num2)
+        res = multiply(num1, num2)
+        print(f"The result is: {res}")
         continue
     elif entrada == "divide":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
-        divide(num1, num2)
+        res = divide(num1, num2)
+        print(f"The result is: {res}")
         continue
     elif entrada == "exponent":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
-        exponent(num1, num2)
+        res = exponent(num1, num2)
+        print(f"The result is: {res}")
         continue
     elif entrada == "modulo":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
-        modulo(num1, num2)
+        res = modulo(num1, num2)
+        print(f"The result is: {res}")
         continue
     elif entrada == "floor_divide":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
-        floor_divide(num1, num2)
+        res = floor_divide(num1, num2)
+        print(f"The result is: {res}")
         continue
     elif entrada == "absolute":
         num1 = float(input("Enter the number: "))
-        absolute(num1)
+        res = absolute(num1)
+        print(f"The result is: {res}")
         continue
     elif entrada == "exit":
         break
