@@ -1,6 +1,6 @@
 from utils_calc import add, sub, multiply, divide, exponent, modulo, floor_divide, absolute
 while True:
-    entrada = input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute, exit):\n")
+    entrada = input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute, exit):\n").lower()
     if entrada == "add":
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
