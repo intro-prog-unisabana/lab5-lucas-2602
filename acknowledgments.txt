@@ -3,7 +3,7 @@ Lab 5
 /******************************************************************************
 * Número aproximado de horas para completar esta tarea
 ******************************************************************************/
-Número de horas:
+Número de horas: 25
 
 
 /******************************************************************************
@@ -11,7 +11,10 @@ Número de horas:
 ******************************************************************************/
 
 ¿Sí o no?
-
+Si, en el problema 2, llamado return_tipes.py, al momento de
+hacer la verificacion, aparece un mensaje de error en github, a causa, que
+en este archivo, en especifico algo sucede con el comando input, a pesar que
+en este laboratorio es necesario este comando.
 
 /******************************************************************************
 * Escribe cualquier otro comentario aquí.
@@ -23,7 +26,7 @@ Número de horas:
  *  Proporciona el enlace de tu perfil de GitHub (ej. https://github.com/afbeltranp)
  ******************************************************************************/
 
-[escribe el enlace aquí]
+[https://github.com/lucas-2602]
 
 /******************************************************************************
  *  Escribe y firma el siguiente reconocimiento estudiantil de trabajo original.
@@ -34,5 +37,6 @@ Número de horas:
  *      con las regulaciones de la Universidad.  /s/ Ada Lovelace
  ******************************************************************************/
 
-[escribe y firma la declaración aquí]
+[Esta tarea de programación representa mi propio trabajo de acuerdo
+ con las regulaciones de la Universidad.  /s/ Lucas David Barrera Mejia]
 
