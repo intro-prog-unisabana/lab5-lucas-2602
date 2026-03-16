@@ -1,6 +1,5 @@
 def obtener_precio_usuario():
-    """Convierte el numero ingresado por el usuario, a un flotante"""
-    resut = input("Enter the item's price:\n")
-    return float(resut)
+    precios = float(input("Enter the item's price:\n"))
+    return precios
 precio = obtener_precio_usuario()
-print(precio)
+print(precio)  # Si el usuario ingresa 25, la salida será 25.0
